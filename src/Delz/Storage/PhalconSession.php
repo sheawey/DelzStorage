@@ -9,7 +9,7 @@ use Phalcon\Session\AdapterInterface as SessionAdapterInterface;
  *
  * @package Pitaya\Component\Common\Storage
  */
-class Session implements IStorage
+class PhalconSession implements IStorage
 {
     /**
      * @var SessionAdapterInterface
