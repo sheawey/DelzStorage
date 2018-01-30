@@ -1,0 +1,21 @@
+{
+  "name": "delz/storage",
+  "description": "用户信息存储组件",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0.0",
+  },
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "徐威",
+      "email": "sheawey@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Delz\\Storage\\": "src/Delz/Storage"
+    }
+  }
+}
