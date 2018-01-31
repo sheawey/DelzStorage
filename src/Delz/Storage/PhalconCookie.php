@@ -38,7 +38,7 @@ class PhalconCookie implements IStorage
     public function get($key, $default = null)
     {
         if($this->has($key)) {
-            return $this->cookies->get($key);
+            return $this->cookies->get($key)->getValue();
         }
         return $default;
     }
